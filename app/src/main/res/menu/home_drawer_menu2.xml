@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_chat"
+        android:icon="@drawable/ic_menu_chat"
+        android:title="Nhan tin"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/item_map"
+        android:icon="@drawable/ic_menu_map"
+        android:title="Map"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/item_collection"
+        android:icon="@drawable/ic_menu_collections"
+        android:title="Collection"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"
+        />
+</menu>

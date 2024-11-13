@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme with Material3 -->
+    <style name="Base.Theme.Lab5" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+
+        <!-- Customize your light theme colors here -->
+        <item name="colorPrimary">@color/your_primary_color</item>
+        <item name="colorPrimaryVariant">@color/your_primary_variant_color</item>
+        <item name="colorOnPrimary">@color/your_on_primary_color</item>
+        <item name="colorSecondary">@color/your_secondary_color</item>
+        <item name="colorSecondaryVariant">@color/your_secondary_variant_color</item>
+        <item name="colorOnSecondary">@color/your_on_secondary_color</item>
+        <!-- Material3 button styles and components -->
+        <item name="buttonStyle">@style/Widget.Material3.Button</item>
+<!--        <item name="buttonBarButtonStyle">@styles/Widget.Material3.Button.Bar</item>-->
+<!--        &lt;!&ndash; Material3 Text appearance &ndash;&gt;-->
+<!--        <item name="textAppearanceHeadline1">@styles/TextAppearance.Material3.Headline1</item>-->
+<!--        <item name="textAppearanceBody1">@styles/TextAppearance.Material3.Body1</item>-->
+    </style>
+
+    <!-- Theme applied to the app -->
+    <style name="Theme.Lab5" parent="Base.Theme.Lab5" />
+
+</resources>
